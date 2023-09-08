@@ -81,7 +81,6 @@ local buttons = {
         button("SPC f h", "󰊄  Recently opened files"),
         button("SPC f r", "  Frecency/MRU"),
         button("SPC f g", "󰈬  Find word"),
-        button("SPC f m", "  Jump to bookmarks"),
         button("SPC s l", "  Open last session"),
     },
     opts = {
