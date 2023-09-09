@@ -80,7 +80,7 @@ local buttons = {
         button("SPC f f", "󰈞  Find File"),
         button("SPC f g", "󰈬  Find Word"),
         button("SPC f r", "  Frecency / MRU", ":MRU <CR>"),
-        button("SPC s l", "  Open Last Session", "<cmd>lua require("persistence").load({ last = true })<cr>"),
+        button("SPC s l", "  Open Last Session", "<cmd>lua require('persistence').load({ last = true })<CR>"),
         button("q", "󰅚  Quit Neovim", ":qa<CR>"),
     },
     opts = {
