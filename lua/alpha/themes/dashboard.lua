@@ -79,6 +79,7 @@ local buttons = {
         button("e", "  New File", "<cmd>ene <CR>"),
         button("SPC f f", "󰈞  Find File"),
         button("SPC f g", "󰈬  Find Word"),
+        button("SPC f r", "  Frecency / MRU", ":MRU <CR>"),
         button("SPC s l", "  Open Last Session", ":load_last_session <CR>"),
         button("q", "󰅚  Quit Neovim", ":qa<CR>"),
     },
