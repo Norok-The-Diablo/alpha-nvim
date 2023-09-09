@@ -20,7 +20,7 @@ local default_header = {
         [[      /| |\.-,_| |_| | | |  | |  / ___ \  /\ V /_,-. | |      | |  | |]],
         [[     u |_|U \_)-\___/  |_|  |_| /_/   \_\U  \_/-(_/U/| |\u    |_|  |_|]],
         [[     _// \\_     \\   <<,-,,-.   \\    >>  //   .-,_|___|_,-.<<,-,,-.]],
-        [[    (__) (__)   (__)   (./  \.) (__)  (__)(__)   \_)-' '-(_/  (./  \.)]], 
+        [[    (__) (__)   (__)   (./  \.) (__)  (__)(__)   \_)-' '-(_/  (./  \.)]],
     },
     opts = {
         position = "center",
@@ -80,7 +80,7 @@ local buttons = {
         button("SPC f f", "󰈞  Find File"),
         button("SPC f g", "󰈬  Find Word"),
         button("SPC f r", "  Frecency / MRU", ":MRU <CR>"),
-        button("SPC s l", "  Open Last Session", "<cmd>lua require('persistence').load({ last = true })<CR>"),
+        button("SPC s l", "  Open Last Session", "n", "<leader>ql", [[<cmd>lua require("persistence").load({ last = true })<cr>]]),
         button("q", "󰅚  Quit Neovim", ":qa<CR>"),
     },
     opts = {
