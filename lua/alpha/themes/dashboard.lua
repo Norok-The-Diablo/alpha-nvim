@@ -76,7 +76,7 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  New File", ":ene <CR>"),
+        button("e", "  New File", "<cmd>ene <CR>"),
         button("SPC n t", "  Files", ":NERDTreeToggle | only <CR>", ""),
         button("SPC f f", "󰈞  Find File"),
         button("SPC f g", "󰈬  Find Word"),
