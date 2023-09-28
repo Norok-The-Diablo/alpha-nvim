@@ -76,7 +76,7 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  New File", "<cmd>ene <CR>"),
+        button("e", "  New File", "<cmd>ene | NERDTreeToggle | wincmd p <CR>"),
         button("SPC n t", "  Files", "<cmd>NERDTreeToggle | only <CR>"),
         button("SPC f f", "󰈞  Find File"),
         button("SPC f g", "󰈬  Find Word"),
