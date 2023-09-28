@@ -76,13 +76,13 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  New File", "<cmd>ene <CR>"),
-        button("SPC n t", "  Files", ":NERDTreeToggle <CR>"),
+        button("e", "  New File", ":ene <CR>"),
+        button("SPC n t", "  Files", ":NERDTreeToggle | only <CR>", ""),
         button("SPC f f", "󰈞  Find File"),
         button("SPC f g", "󰈬  Find Word"),
         button("SPC f r", "  Frecency / MRU", ":MRU <CR>"),
         button("SPC s l", "  Open Last Session", ":SessionRestore <CR>"),
-        button("q", "󰅚  Quit Neovim", ":qa<CR>"),
+        button("q", "󰅚  Quit Neovim", ":qa <CR>"),
     },
     opts = {
         spacing = 1,
